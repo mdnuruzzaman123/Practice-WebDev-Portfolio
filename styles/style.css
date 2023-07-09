@@ -1,0 +1,197 @@
+/* nav section styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+}
+.text{
+    color: #FD6E0A;
+}
+nav >ul{
+    align-items: center;
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right:50px ;
+}
+nav a {
+    text-decoration: none;
+    color: #474747;
+    font-family: 'Open Sans', sans-serif;
+
+}
+nav a:hover{
+    color: #FD6E0A;
+}
+.button{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding:15px 35px;
+    margin-right: 8px;
+}
+/* banner section styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 30px 0px 150px;
+}
+.banner-conteiner{
+    max-width: 600px;
+}
+.profile-pic{
+    width: 500px;
+}
+.banner-h3{
+    color:#474747;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.banner-h1{
+    color: #181818;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+.banner-p{
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0px;
+    margin-bottom:30px ;
+}
+/* header style */
+header{
+    color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+/* about section styles */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+main section {
+    margin-top: 130px;
+}
+.about-me{
+    margin: 130px 0px;
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+
+}
+.about-title{
+    font-family: 'Open Sans', sans-serif;
+    color:  #181818;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.about-description{
+    color: #757575;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.about-info-conteiner{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color:#757575 ;
+    margin: 10px;
+}
+.info-description{
+    font-weight: bold;
+    margin:15px ;
+    color:#474747 ;
+}
+/* skill section style */
+.skill-conteiner{
+    display: flex;
+    gap:25px;
+}
+.skill{
+    padding:25px ;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    font-family: 'Open Sans', sans-serif;
+}
+.skill-title{
+    color: #181818;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+}
+.skill-description{
+    color: #757575;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+#what-i-do-description{
+    padding: 30px 150px;
+}
+/* summery section styles */
+.summery-div{
+    display: flex;
+    gap:70px;
+}
+.summery-main-title{
+    color: #474747;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.summery-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.summery-title2{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.summery-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
